@@ -104,7 +104,7 @@
 				</div>
 
 				<dl>
-					<?sidebar();?>
+					<?php sidebar();?>
 				</dl>
 
 			</div> <!-- End of right section -->
@@ -117,7 +117,7 @@
 				</div>
 				
 				<div class="column"> <!-- Start of Reviews -->
-					<?getReviews();?>				
+					<?php getReviews();?>				
 				</div> <!-- End of reviews -->
 				<div id="aftercolumns"></div>
 
